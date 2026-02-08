@@ -1,0 +1,19 @@
+# Ignore Backend Junk
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/**/*.class
+backend/.idea/
+backend/*.iml
+
+# Ignore Frontend Junk
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db
